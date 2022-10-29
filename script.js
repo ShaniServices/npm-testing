@@ -1,3 +1,9 @@
+var _ = require('lodash');
+
+let array = [1,2,3,4,5,67];
+
+console.log('answer: ', _.without(array, 67));
+
 let color1 = document.querySelector(".color1");
 let color2 = document.querySelector(".color2");
 let colorValue = document.querySelector("h3");

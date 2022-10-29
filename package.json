@@ -1,0 +1,22 @@
+{
+  "name": "npm-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "updateBrowserify": "browserify script.js > bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShaniServices/npm-testing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShaniServices/npm-testing/issues"
+  },
+  "homepage": "https://github.com/ShaniServices/npm-testing#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
